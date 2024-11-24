@@ -1,0 +1,154 @@
+.SectionText h2 {
+    font-size: 80px;
+}
+
+.SectionText {
+    z-index: 10;
+}
+
+.mainImgCont {
+    z-index: 10;
+}
+
+.SectionText p {
+    width: 60%;
+}
+
+.cardStore {
+    z-index: 1;
+}
+
+.banner::-webkit-scrollbar {
+    display: none;
+}
+
+.mainImgCont {
+    right: 10%;
+    position: absolute;
+    /* width: 50%; */
+    height: 80%;
+    transform: translateY(10%);
+    object-fit: cover;
+
+}
+
+@media (max-width:1390px) {
+    .mainImgCont {
+        right: -5%;
+
+    }
+
+    .SectionText h2 {
+        font-size: 80px;
+    }
+
+    .SectionText p {
+        width: 70%;
+    }
+
+    .cardStore {
+        transform: scale(1);
+    }
+}
+
+@media(max-width:1150px) {
+    .SectionText h2 {
+        font-size: 4rem;
+    }
+
+    .mainImgCont {
+        right: -7%;
+    }
+
+    .cardStore {
+        top: 40%;
+        left: 10%;
+        transform: scale(1);
+    }
+}
+
+@media (max-width:985px) {
+    .mainImgCont {
+        right: -10%;
+    }
+}
+
+@media (max-width:900px) {
+    .mainImgCont {
+        right: -15%;
+        height: 70%;
+        bottom: 10%;
+    }
+
+    .SectionText {
+        top: 5%;
+        /* left: 5%; */
+        width: 90%;
+    }
+
+    .SectionText p {
+        width: 80%;
+    }
+
+    .cardStore {
+        top: 45%;
+        left: 5%;
+    }
+}
+
+@media (max-width:640px) {
+    .mainImgCont {
+        right: -15%;
+    }
+
+    .SectionText h2 {
+        font-size: 3rem;
+    }
+
+    .cardStore {
+        transform: scale(0.75);
+        top: 40%;
+        left: 0;
+    }
+
+    .SectionText p {
+        font-size: 24px;
+        /* padding: 0 5px; */
+        /* text-align: left; */
+    }
+}
+
+@media (max-width:500px) {
+    .mainImgCont {
+        right: -30%;
+    }
+
+    .SectionText h2 {
+        font-size: 35px;
+        line-height: 32px;
+    }
+
+    .SectionText p {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .cardStore {
+        transform: scale(0.60);
+        left: -10%;
+        top: 30%;
+    }
+
+}
+
+@media(max-width:350px) {
+    .SectionText p {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    .SectionText h2 {
+        line-height: 30px;
+    }
+}

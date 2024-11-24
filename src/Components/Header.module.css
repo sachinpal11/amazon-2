@@ -1,0 +1,27 @@
+@media(max-width:640px){
+    .oneCont{
+        display: none;
+    }
+    .secCont{
+        display: none;
+    }
+    .search{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:450px){
+    .oneCont{
+        display: none;
+    }
+    .secCont{
+        display: none;
+    }
+    .search{
+        font-size: 28px;
+        display: none;
+    }
+    .thCont{
+        display: none;
+    }
+}

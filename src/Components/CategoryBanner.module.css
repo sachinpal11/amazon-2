@@ -1,0 +1,45 @@
+.CategoryCard {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 30vh;
+    /* background-color: rgba(255, 255, 255, 0.448); */
+    position: relative;
+    padding: 30px;
+
+    border-radius: 10px;
+    flex-shrink: 0;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.CategoryCard img {
+    height: 13rem;
+    object-fit: cover;
+
+}
+
+@media(max-width:1500px) {
+    .CategoryCard {
+        width: 40%;
+        height: 30vh;
+        /* padding: 40px; */
+
+    }
+}
+
+
+@media(max-width:640px) {
+    .CategoryCard {
+        width: 90%;
+        height: 30vh;
+        /* padding: 40px; */
+    }
+
+    .CategoryCard img {
+        height: 13rem;
+    }
+}
