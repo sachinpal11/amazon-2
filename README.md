@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Amazon Clone using React + vite in which i redesigned the amazon with good ui.
 
 Currently, two official plugins are available:
 
