@@ -18,7 +18,6 @@ function App() {
         <Header />
         <Navbar className='z-[100]' />
         <Outlet />
-
       </EcommerceStoreProvider>
     </div>
   )
