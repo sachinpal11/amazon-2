@@ -17,7 +17,7 @@ function MainBanner() {
     useEffect(() => {
         const interval = setInterval(autoslider, 5000);
         return () => clearInterval(interval);
-    }, [screenWidth]);
+    }, []);
 
     const autoslider = () => {
         if (!sliderref.current) return;
